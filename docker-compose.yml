@@ -12,13 +12,13 @@ services:
     tty: true
     stdin_open: true
     
-   web3:
+  web3:
     image: centos
     command: /bin/bash
     tty: true
     stdin_open: true
     
-   web4:
+  web4:
     image: centos
     command: /bin/bash
     tty: true
