@@ -1,0 +1,25 @@
+version: '3'
+services:
+  web1:
+    image: centos
+    command: /bin/bash
+    tty: true
+    stdin_open: true
+    
+  web2:
+    image: centos
+    command: /bin/bash
+    tty: true
+    stdin_open: true
+    
+   web3:
+    image: centos
+    command: /bin/bash
+    tty: true
+    stdin_open: true
+    
+   web4:
+    image: centos
+    command: /bin/bash
+    tty: true
+    stdin_open: true
